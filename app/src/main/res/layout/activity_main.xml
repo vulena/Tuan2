@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity"
+    android:background="#8FBC8f">
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="@drawable/twitter"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        />
+
+    <EditText
+        android:id="@+id/edit_Text_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="100dp"
+        android:textColor="#ffffff"
+        android:textSize="24dp"
+        android:textFontWeight="@integer/material_motion_duration_medium_1"/>
+
+    <EditText
+        android:id="@+id/edit_Text_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="0dp"
+        android:textColor="#ffffff"
+        android:textSize="24dp"
+        android:textFontWeight="@integer/material_motion_duration_medium_1"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bnt_send"
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:text="Send"
+        android:textColor="#000000"
+        android:textSize="26dp"
+        />
+
+</LinearLayout>
